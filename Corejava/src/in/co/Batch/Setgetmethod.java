@@ -6,13 +6,13 @@ public class Setgetmethod {
 	private String address = null;
 	private String dateofbirth= null;
 	
-	public String getname () {
+	public String getName () {
 		return name;
 	}
 	 public void setName (String n) {
 		name= n ;
 	}
-	 public String getaddress(){
+	 public String getAddress(){
 		 return address ;
 	}
 	 public void setaddress (String a) {
@@ -24,12 +24,8 @@ public class Setgetmethod {
 	 public void setDateOfBirth (String d) {
 	    dateofbirth=d;
 	 }
-	 p.getName("Nikhil");
-	 p.getAddress("indore");
-	 p.getDateOfBirth("08/10/2001");
-	 
-	 System.out.print(String [])
-	
+	  
 	}
+	
 	
 	

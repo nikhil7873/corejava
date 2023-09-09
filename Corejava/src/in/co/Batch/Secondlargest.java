@@ -1,16 +1,22 @@
 package in.co.Batch;
 
 public class Secondlargest {
-	 public static void main(Strings[] args) {
+	 public static void main(String[] args) {
 		
-		 int []arr = (100 200 300 400 500);}
+		 int [] arr  = {100,200, 300, 400, 500};
+		 
 	 
 	 int  a=0;
 	 int b=0;
 	 
-	 for (int i=0; i < arr.lenght; i++)
-		 if(arr [i]) > b {
+	 for (int i=0; i < arr.length; i++) {
+		 if(arr[i]>b) {
+			 a = b;
+			 b= arr[i];
+	 }
+		
 			 
 	 }
-
+	 System.out.println(a); 
+}
 }

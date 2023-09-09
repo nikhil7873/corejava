@@ -8,9 +8,10 @@ public static void main (String[] args) {
 	
 	while(a<=5) {
 		
-		b=a*b;
-		a++;
-	}
+		b=b*a;
+		a++;	
+	
+}
 	System.out.println(b);
 }
 }

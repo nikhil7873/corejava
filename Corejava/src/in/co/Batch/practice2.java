@@ -15,10 +15,10 @@ public class practice2 {
     int count = 0;
     for (int i=0; i< note.length; i++) {
     
-    	Count =  number / note(i);
+    	count =  number / note[i];
     	if(count > 0 ) {
     		
-    		System.out.println(note[i]=+"="+count);
+    		System.out.println(note[i] +"="+count);
     		
     	
     		

@@ -6,10 +6,10 @@ public class Rendom {
 	public static void main(String[] args) {
 		
 		
-		int max =250;
-		int min=60;
+		int max =500;
+		int min=150;
 		int range=max-min;
-		for (int i = 1; i <=7; i++) {
+		for (int i = 0; i <=5; i++) {
 			
 			int rd=(int)(Math.random()*range);
 			System.out.println(rd);

@@ -8,12 +8,12 @@ public class Shape {
 	public Shape() {
 		
 	}
-	public Shape (int borderWidth, String Color) {
+	public Shape (int borderwidth, String color)  {
 	
 		this.borderwidth = borderwidth;
 		this.color = color;	
 	}
-	  public void setBorderWidth (int borderWidth) {
+	  public void setBorderWidth (int borderwidth) {
 		 this.borderwidth=borderwidth;
 	  }
 	  public int getBorderWidth() {
@@ -22,7 +22,7 @@ public class Shape {
 	  public void setColor (String color) {
 		  this.color= color;
 	  }
-	  public String getcolor() {
+	  public String getColor() {
 		  return color ;
 	  }
 }
