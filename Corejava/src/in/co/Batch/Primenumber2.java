@@ -5,11 +5,11 @@ public class Primenumber2 {
 	public static void main(String[] args) {
 		// count
 		
-		int num= 81;
+		int num= 83;
 		int count = 0;
 		
-		for (int i = 1; i < num; i++) {
-			if (num%2==0) {
+		for (int i = 2; i < num; i++) {
+			if (num%i==0) {
 			count++;	
 			}
 			
